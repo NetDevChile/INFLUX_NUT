@@ -6,7 +6,7 @@ Link between NUT and INFLUXDB
 ```
 mkdir /var/tmp/influx-nut
 cd /var/tmp/influx-nut
-git clone https://github.com/lf-/influx_nut.git 			
+git clone https://github.com/NetDevChile/influx_nut.git
 ```
 
 ############### configurar Dockerfile ############
