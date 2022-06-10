@@ -160,9 +160,9 @@ services:
    extra_hosts:
       host: x.x.x.21
 networks:
- i40sys:
+ dockerlink:
    external:
-     name: i40sys
+     name: dockerlink
 ```
 ###################### ejecutamos docker-compose ###########
 
