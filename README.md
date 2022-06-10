@@ -164,7 +164,7 @@ networks:
    external:
      name: i40sys
 ```
-###################### ejecutamos docker-compose ###########33
+###################### ejecutamos docker-compose ###########
 
 ```
 cd /docker-data/influx-nut/
