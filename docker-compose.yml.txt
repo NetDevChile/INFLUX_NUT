@@ -1,0 +1,20 @@
+version: '3.3'
+services:
+ nut:
+   container_name: influx-nut
+   restart: unless-stopped
+   image: influxdb/nut
+   environment:
+      - TZ=America/Santiago
+   volumes:
+      - './influx_nut.json:/etc/influx_nut.json:ro'
+      - '/etc/localtime:/etc/localtime:ro'
+   networks:
+      - i40sys
+   extra_hosts:
+      host: 172.19.221.221
+networks:
+ i40sys:
+   external:
+     name: i40sys
+
