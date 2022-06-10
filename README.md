@@ -156,7 +156,7 @@ services:
       - './influx_nut.json:/etc/influx_nut.json:ro'
       - '/etc/localtime:/etc/localtime:ro'
    networks:
-      - i40sys
+      - dockerlink
    extra_hosts:
       host: x.x.x.21
 networks:
