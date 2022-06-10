@@ -1,7 +1,7 @@
                                                       
 {
  "nut_host": "host",
- "nut_ups": "salicru",
+ "nut_ups": "UPS 1",
  "nut_vars": {
  "input.L1-N.voltage": {"type": "float", "measurement_name": "ups_l1n_voltage"},
  "input.L2-N.voltage": {"type": "float", "measurement_name": "ups_l2n_voltage"},
@@ -53,6 +53,6 @@
  "influx_creds": ["telegraf_w", "2be1pir8"],
  "influx_db": "telegraf",
  "influx_tags": {
- "ups": "salicru"
+ "ups": "UPS 1"
     }
   }
