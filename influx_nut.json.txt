@@ -1,6 +1,6 @@
 {
  "nut_host": "localhost",
- "nut_ups": "salicru",
+ "nut_ups": "UPS 1",
  "nut_vars": {
  "ups.load": {"type": "int", "measurement_name": "ups_load"},
  "input.voltage": {"type": "float", "measurement_name": "ups_voltage"},
