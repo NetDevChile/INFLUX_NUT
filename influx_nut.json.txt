@@ -50,7 +50,7 @@
  "battery.runtime": {"type": "float", "measurement_name": "ups_runtime"}
     },
  "influx_host": "http://influx1:8086",
- "influx_creds": ["telegraf_w", "2be1pir8"],
+ "influx_creds": ["telegraf_w", "password"],
  "influx_db": "telegraf",
  "influx_tags": {
  "ups": "UPS 1"
