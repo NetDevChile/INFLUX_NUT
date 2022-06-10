@@ -12,7 +12,7 @@ services:
    networks:
       - i40sys
    extra_hosts:
-      host: 172.19.221.221
+      host: x.x.x.21
 networks:
  i40sys:
    external:
