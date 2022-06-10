@@ -1,0 +1,9 @@
+FROM python:3.7
+
+ADD influx_nut.json /etc/influx_nut.json
+ADD influx_nut /influx_nut
+WORKDIR /influx_nut
+RUN python setup.py install
+
+CMD influx_nut --config /etc/influx_nut.json
+
